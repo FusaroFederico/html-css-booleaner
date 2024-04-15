@@ -11,7 +11,7 @@
 <body>
     <!--header della pagina con logo-->
     <header>
-        <img src="img/logo.svg" alt="logo della pagina">
+        <img id="logo" src="img/logo.svg" alt="logo della pagina">
     </header>
     <!--/header della pagina con logo-->
 
@@ -19,11 +19,14 @@
         <!--articolo con titolo,autore,data e immagini-->
         <article>
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-            <p>scritto da <strong>The Booleaner</strong><br>il 10/10/2020</p>
+            <p id="autore">Scritto da <strong>The Booleaner</strong><br></p>
+            <p id="data">il 10/10/2020</p>
             <img src="img/tim-1.jpg" alt="foto1 di Tim Berners-Lee">
             <img src="img/tim-2.jpg" alt="foto2 di Tim Berners-Lee">
             <!--didascalia delle foto-->
-            <p>1st Photo:convegno<br>2nd Photo:primo piano</p>
+            <p id="didascalia">1st Photo:John S. and James L. Knight Foundation by Scott Henrichsen<br>2nd
+                Photo:Wikimedia by Paul
+                Clarke</p>
             <!--/didascalia delle foto-->
         </article>
         <!--/articolo con titolo,autore,data e immagini-->
@@ -50,13 +53,13 @@
             <table>
                 <thead>
                     <tr>
-                        <th>lorem ipsum dolor</th>
-                        <th>lorem ipsum dolor</th>
+                        <th class="primecolonne">lorem ipsum dolor</th>
+                        <th class="primecolonne">lorem ipsum dolor</th>
                         <th>lorem ipsum dolor</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="righe13">
                         <td>lorem ipsum dolor</td>
                         <td>lorem ipsum dolor</td>
                         <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolores amet
@@ -72,7 +75,7 @@
                             ut eum libero fugit, iste aliquam debitis cumque maxime dolores eius at quo tenetur sed
                             necessitatibus sapiente.</td>
                     </tr>
-                    <tr>
+                    <tr class="righe13">
                         <td>lorem ipsum dolor</td>
                         <td>lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta explicabo, quasi minus
