@@ -1,3 +1,4 @@
+/*inizio stile dell'header*/
 header {
     background-color: #9cd6f4;
     height: 130px;
@@ -8,6 +9,44 @@ header {
     padding: 45px 15px;
 }
 
+/*fine stile dell'header*/
+/*inizio stile del main*/
 main {
     margin: 40px 15px;
 }
+
+/*inizio stile dell'article*/
+h1 {
+    font-size: 27px;
+    margin-bottom: 0px;
+}
+
+article p {
+    margin-top: 0px;
+}
+
+#autore {
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#autore strong {
+    font-weight: lighter;
+    color: #4eb5ff;
+}
+
+#data {
+    font-size: 11px;
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+
+#didascalia {
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+
+/*fine stile dell'article*/
+/*fine stile del main*/
