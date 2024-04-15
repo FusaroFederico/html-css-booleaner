@@ -61,4 +61,20 @@ ul {
 }
 
 /*fine stile del primo div*/
+/*inzio stile del secondo div*/
+th {
+    background-color: #7fa6fb;
+    color: white;
+    text-align: left;
+}
+
+.primecolonne {
+    width: 470px;
+}
+
+.righe13 {
+    background-color: #dfe5f2;
+}
+
+/*fine stile del secondo div*/
 /*fine stile del main*/
