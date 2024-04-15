@@ -49,4 +49,16 @@ article p {
 }
 
 /*fine stile dell'article*/
+/*inizio stile del primo div*/
+div p strong {
+    font-weight: normal;
+    background-color: #ffff00;
+}
+
+ul {
+    margin: 35px 0;
+    padding-left: 15px;
+}
+
+/*fine stile del primo div*/
 /*fine stile del main*/
