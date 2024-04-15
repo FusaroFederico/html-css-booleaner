@@ -77,18 +77,18 @@ th {
 }
 
 /*fine stile del secondo div*/
+/*fine stile del main*/
 /*inizio stile del footer*/
 footer {
+    align-content: center;
     background-color: #313a6b;
-    text-align: center;
     height: 50px;
 }
 
 footer p {
-    padding-top: 20px;
+    text-align: center;
     color: white;
     font-size: 10px;
 }
 
 /*fine stile del footer*/
-/*fine stile del main*/
